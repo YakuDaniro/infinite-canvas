@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/assets/*"
+  for = "/src/*"
   [headers.values]
     Content-Type = "application/javascript"
