@@ -1,4 +1,9 @@
+[build]
+  command = "npm install && npm run build --mode web"
+  publish = "dist"
+
 [[headers]]
-  for = "/src/*"
+  for = "/*"
   [headers.values]
     Content-Type = "application/javascript"
+    X-Content-Type-Options = "nosniff"
