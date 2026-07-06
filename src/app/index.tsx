@@ -1,6 +1,6 @@
 import * as React from "react";
 import manifest from "~/src/artworks/manifest.json";
-import { Frame } from "~/src/frame";
+
 import { InfiniteCanvas } from "~/src/infinite-canvas";
 import type { MediaItem } from "~/src/infinite-canvas/types";
 import { PageLoader } from "~/src/loader";
