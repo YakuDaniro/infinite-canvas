@@ -4,7 +4,7 @@
   publish = "dist"
 
 [[headers]]
-  for = "/*"
+  for = "/assets/*"
   [headers.values]
     Content-Type = "application/javascript"
     X-Content-Type-Options = "nosniff"
