@@ -1,5 +1,6 @@
+# netlify.toml (build section)
 [build]
-  command = "npm install && npm run build --mode web"
+  command = "npm install && npm run build -- --mode web"
   publish = "dist"
 
 [[headers]]
